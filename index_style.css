@@ -1,0 +1,302 @@
+		*{
+			margin:0;
+		}
+		body{
+			background-image:url(image/BACKGROUND.gif);
+		}
+		h1{
+			font-size:90px;
+			text-shadow:5px 2px 5px blue;		
+		}
+		h2{
+			color:;
+		}
+		h3{
+			font-size:65px;
+			text-shadow:5px 2px 5px blue;
+		}
+		h4{
+			font-size:30px;
+		}
+		h5{
+			font-size:17px;
+		}
+		p{
+			color:;
+			text-align:left;
+			text-align:justify;
+		}
+		
+		ul {
+			border-radius:70px 70px 70px 0px;
+			background-color:skyeblue;
+			
+		}
+		ul li {
+			width:106px;
+			display: inline-block;
+			height: 80px;
+			line-height: 80px;
+			text-align: center;
+		}
+		ul li a {
+			color: black;
+			text-decoration: none;
+			display: block; 
+		}
+		ul li a:hover {
+			background-color:  #4169E1;
+			border-radius:0px 40px 0px 70px;
+		}
+		article {
+			margin-left: 300px;
+			padding-right:1cm;
+			padding-left:1cm;
+			overflow: hidden;
+			background-color:   #1E90FF ;
+			margin-right: 300px;
+			border-right: 1px solid #808b96;
+			padding-bottom:50px;
+			overflow: hidden;
+			box-shadow:10px 0px 10px 0px gray;
+			border-radius:100px 10px 100px 10px;
+
+		}
+		
+		nav {
+			
+			float: left;
+			max-width: 250px;
+			padding: 0em;
+			border-radius:50px 0px 50px 0px;
+		}
+
+		nav ul {
+			list-style-type: none;
+			padding: 1em;
+		}
+   
+		nav ul a {
+			text-decoration: none;
+		}
+		.nav{
+	
+			float: left;
+			max-width: 200px;
+			margin: right;
+			padding: 1em;
+			background-color:  #ebf5fb;
+			border-radius:50px 10px 50px 10px;
+		}
+		
+		.headerDiv {
+			background-image:url(image/keyboard-1.jpg);
+			height:335px;
+			overflow:hidden;
+			vertical-align: baseline;
+			color:skyeblue;
+			margin-top:70px;
+			padding-top:80px;
+			padding-bottom:70px;
+			text-shadow:5px 2px 5px red;
+			font-size:45px;
+			
+		}
+		
+		
+		.manuDiv{
+			background-color:skyeblue;
+			background-image:url(image/h_bknd_2.jpg);
+			height:90px;
+			position:fixed;
+			margin-top:0px;
+			
+		}
+		.manudiv2{
+			background-color:skyeblue;
+			position:fixed;
+			display:inline-block;
+			float:right;
+			background-image:url(image/h_bknd_2.jpg);
+			height:90px;
+			width:85%;
+		}
+		
+		.logoDiv{
+			display:inline-block;
+			height:100px;
+			
+		}
+		.logoDiv img{
+			height:90px;
+		}
+		.container {
+			background-image:url(image/BACKGROUND.gif);
+			width: 100%;
+			text-align:center;
+		}
+		.wrapper {
+			width:990px;
+			margin: auto;
+		}
+		
+		
+		.clientDiv{
+			
+			padding:50px;
+		}
+		.headLine{
+			background-color:  ;
+			padding:0px;
+			margin-top:70px;
+			text-align:center;
+		}
+		.clintSDiv{
+			text-align:center;
+		}
+		.clock{
+			
+			float:right;
+		}
+		.footerT{
+			padding:40px;	
+		}
+		.footer_text{
+			display:inline-block;
+			width:250px;
+			margin-left:120px;
+			font-size:12px;
+			margin-top:0px;
+			padding:10px;
+			background-color:   ;
+			color:white;
+			text-shadow:5px 2px 5px blue;
+		}
+		.slidDiv{
+			padding-left:250px;
+			background-color: black ;
+			margin-left:163px;
+			margin-right:20px;
+		}
+		.articleDiv{
+			
+		}
+		
+	#sliderBox1{
+		text-align:center;
+		float:center;
+		padding:30px;
+	}	
+	#sliderbox{
+		width:600px;
+		overflow:hidden;
+		text-align:center;
+		}
+	#slidersection{
+		position:relative;
+		width:2400px;
+		background-color:gray;
+		animation-name: firstAnimation;
+		animation-duration:15s;
+		animation-iteration-count: infinite;
+	}
+	#slidersection img{
+		float:left;
+	}
+	@keyframes firstAnimation {
+	0% {
+		left: 0px;
+		}
+	10% {
+		left: 0px;
+		}
+	12.5% {
+		left: -600px;
+		}
+	22.5% {
+		left: -600px;
+		}
+	25% {
+		left: -1200px;
+		}
+	35%
+		{
+		left: -1200px;
+		}
+	37.5% {
+		left: -1800px;
+		}
+	47.5% {
+		left: -1800px;
+		}
+	50% {
+		left: -2400px;	
+		}
+	60% {
+		left: -1800px;
+		}
+	62.5% {
+		left: -1800px;
+		}
+	72.5% {
+		left: -1200px;
+		}
+	75%{
+		left: -1200px;
+		}
+	85%{
+		left: -600px;
+		}
+	95%{
+		left: 0px;
+		}
+	
+}
+		
+	
+		
+		#footersection {
+			margin: 3px;
+			width: 255;
+			padding: 16;
+			display: inline-block;
+			margin-top: 20px;
+			box-shadow: 10px 10px 20px black;
+			margin-bottom: 50px;
+			background-color:lightgray;
+			margin-left:15px;
+		}
+		footer{
+			background-color:black;
+			padding:0;
+			color:white;
+		}
+		#text-image{
+			margin:auto;
+			cursor: pointer;
+			width: 150px;
+		}
+		
+		#div-text {
+			margin: 10px;
+			width: 300;
+			padding: 16;
+			display: inline-block;
+			margin-top: 0px;
+			box-shadow: 10px 10px 10px gray;
+			margin-bottom: 50px;
+			background-color:   #ADD8E6;
+		}
+		#clints_Feedback{
+			background-color:  #ADD8E6;
+			width:1043px;
+			text-align:center;
+			margin:auto;
+			
+		}
+		#serviceHead{
+			background-color:white;
+		}
+		
+		
+		
